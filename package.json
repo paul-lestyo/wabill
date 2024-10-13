@@ -9,7 +9,7 @@
     "start": "node index.js",
     "start-dev": "nodemon index.json",
     "build": "pkg .",
-		"build-ncc": "ncc build -o build/lib ./index.js && pkg --target node16-win-x64 -o build/wabil.exe ./build/lib/index.js"
+    "build-ncc": "ncc build -o build/lib ./index.js && pkg --target node16-win-x64 -o build/wabil.exe ./build/lib/index.js"
   },
   "keywords": [
     "WhatsApp"
@@ -21,7 +21,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.6",
+    "@whiskeysockets/baileys": "^6.7.8",
     "baileys": "^6.0.5",
     "express": "^4.17.1",
     "qrcode": "^1.4.4",
@@ -30,7 +30,7 @@
   "pkg": {
     "assets": [
       "client/**/*",
-			"node_modules/axios/dist/node/axios.cjs"
+      "node_modules/axios/dist/node/axios.cjs"
     ],
     "targets": [
       "node16-linux-x64",
