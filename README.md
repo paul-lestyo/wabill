@@ -1,4 +1,4 @@
-# Wabil
+# Wabill
 
 A simple and user-friendly tool for sending bulk WhatsApp messages efficiently with minimal effort.
 
